@@ -83,6 +83,14 @@ img{
     padding: 100px 20px;
 }
 
+.navbar {
+    background: var(--branding-color)!important;
+}
+
+.nav-link {
+    color: var(--secondary-color)!important;
+}
+
 @media(max-width:960px) {
     
     .hero h1 {
