@@ -16,6 +16,15 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
+p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+img{
+    width: 550px;
+}
+
 .hero {
     background-color: var(--branding-color);
     text-align: center;
@@ -54,4 +63,36 @@ h1, h2, h3, h4, h5, h6 {
 .hero .arrow-down {
     font-size: 35px;
     color: var(--secondary-color);
+}
+
+.hero-content h2 {
+    font-size: 45px;
+}
+
+.hero-content .btn-branding-outline {
+    background-color: var(--branding-color);
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 12px 20px; 
+}
+
+.project-description {
+    padding: 100px 20px;
+}
+
+@media(max-width:960px) {
+    
+    .hero h1 {
+        font-size: 60px;
+        line-height: 1.5;
+    }
+
+    .project-description{
+        padding: 0; 
+        text-align: center;
+    }
+
 }
