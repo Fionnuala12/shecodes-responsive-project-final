@@ -36,6 +36,8 @@ footer {
     margin: 0 -400px;
 }
 
+
+
 .footer-text {
    font-size:16px; 
   
@@ -100,15 +102,7 @@ footer .social-links a:hover {
     color: var(--secondary-color);
 }
 
-.hero .btn-branding {
-    background-color: var(--secondary-color);
-    color: white;
-    border-radius: 4px;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 12px 20px; 
 
-}
 
 .hero .arrow-down {
     font-size: 35px;
@@ -119,7 +113,35 @@ footer .social-links a:hover {
     font-size: 45px;
 }
 
-.hero-content .btn-branding-outline {
+
+.project-description {
+    padding: 100px 20px;
+}
+
+.content-container{
+    padding: 160px 20px;
+}
+
+.content-container h1 { 
+    font-size: 56px;
+    line-height: 1;
+}
+
+.content-container p {
+    font-size: 18px;
+}
+
+.container .btn-branding {
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 12px 20px; 
+
+}
+
+.container .btn-branding-outline {
     background-color: var(--branding-color);
     color: var(--secondary-color);
     border: 1px solid var(--secondary-color);
@@ -129,8 +151,8 @@ footer .social-links a:hover {
     padding: 12px 20px; 
 }
 
-.project-description {
-    padding: 100px 20px;
+.content-section {
+    margin: 50px;
 }
 
 .navbar {
@@ -151,6 +173,11 @@ footer .social-links a:hover {
     .project-description{
         padding: 0; 
         text-align: center;
+    }
+
+    .content-container {
+        text-align: center;
+        padding: 40px;
     }
 
 }
