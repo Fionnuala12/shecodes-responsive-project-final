@@ -20,6 +20,8 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
+
+
 p {
     font-size: 16px;
     line-height: 30px;
@@ -173,6 +175,21 @@ margin-bottom: 15px;
     top: 45px;
 }
 
+.logo {
+  max-width: 50px;  
+}
+
+.contact-title {
+    padding-top: 80px;
+    padding-left: 70px;
+    font-size: 50px;
+}
+.contact-link {
+font-weight: 300;
+text-decoration: none;
+color: black;
+opacity: 50%;
+}
 
 @media(max-width:960px) {
     
