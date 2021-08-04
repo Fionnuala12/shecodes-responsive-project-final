@@ -151,8 +151,9 @@ footer .social-links a:hover {
     padding: 12px 20px; 
 }
 
-.content-section {
-    margin: 50px;
+.content-section h3{
+text-align: center;
+margin-bottom: 15px;
 }
 
 .navbar {
@@ -162,6 +163,16 @@ footer .social-links a:hover {
 .nav-link {
     color: var(--secondary-color)!important;
 }
+
+.dictionary-img {
+    margin: 45px 0;
+}
+
+.project-buttons-dictionary{
+    position: relative;
+    top: 45px;
+}
+
 
 @media(max-width:960px) {
     
