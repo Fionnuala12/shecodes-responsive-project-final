@@ -20,8 +20,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
-
-
 p {
     font-size: 16px;
     line-height: 30px;
@@ -88,6 +86,30 @@ footer .social-links a:hover {
 .hero h1 {
     font-size: 80px;
 }
+.hero .line-1{
+    font-size: 60px;
+    text-align: center;
+    border-right: solid 3px #2E3C7F;
+    white-space: nowrap;
+    overflow: hidden; 
+    margin: 0 auto;
+    }
+
+
+.hero .anim-typewriter{
+    display: flex;
+    align-items: center;
+    animation: typewriter 4s steps(20) 1s 1 normal both,
+               blinkTextCursor 600ms steps(20) infinite;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 480px;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: #2E3C7F;}
+    to{border-right-color: transparent;}
+  }
 
 .hero h2 { 
     font-family: var(--default-font);
@@ -116,9 +138,6 @@ footer .social-links a:hover {
 }
 
 
-.project-description {
-    padding: 100px 20px;
-}
 
 .content-container{
     padding: 160px 20px;
@@ -132,6 +151,17 @@ footer .social-links a:hover {
 .content-container p {
     font-size: 18px;
 }
+
+.hero .btn-branding {
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 12px 20px; 
+}
+
+
 
 .container .btn-branding {
     background-color: var(--secondary-color);
@@ -151,6 +181,14 @@ footer .social-links a:hover {
     font-size: 18px;
     line-height: 27px;
     padding: 12px 20px; 
+}
+
+
+.btn-branding-outline:hover {
+    color: var(--secondary-color)!important;
+}
+.btn-branding:hover {
+    color: white!important;
 }
 
 .content-section h3{
@@ -182,8 +220,34 @@ margin-bottom: 15px;
 .contact-title {
     padding-top: 80px;
     padding-left: 70px;
-    font-size: 50px;
+    
 }
+
+.contact-title .line-1{
+    font-size: 50px;
+    text-align: center;
+    border-right: solid 3px #2E3C7F;
+    white-space: nowrap;
+    overflow: hidden; 
+    margin: 0 auto;
+    }
+
+
+.contact-title .anim-typewriter{
+    display: flex;
+    align-items: center;
+    animation: typewriter 4s steps(20) 1s 1 normal both,
+               blinkTextCursor 600ms steps(20) infinite;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 400px;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: #2E3C7F;}
+    to{border-right-color: transparent;}
+  }
+
 .contact-link {
 font-weight: 300;
 text-decoration: none;
