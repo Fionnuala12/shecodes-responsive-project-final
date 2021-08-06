@@ -10,10 +10,6 @@ body {
     margin: 0;
 }
 
-.content-wrapper{
-    margin: 0 auto;
-}
-
 h1, h2, h3, h4, h5, h6 {
     color: var(--secondary-color);
     font-family: var(--heading-font);
@@ -25,34 +21,28 @@ p {
     line-height: 30px;
 }
 
-img{
-    width: 550px;
-}
-
 footer {
     background-color: var(--branding-color);
-    background-size: 100%;;
-    padding: 15px 0;
+    background-size: 100%;
     margin: 0 -400px;
+    padding: 15px 0;
 }
-
-
 
 .footer-text {
    font-size:16px; 
-  
 }
 
 .footer-text a{
-    font-size:16px; 
-   text-decoration: none;
    color: var(--secondary-color);
+   font-size:16px; 
+   text-decoration: none;
+   
 }
 
 footer .email-link{
-    text-decoration: none;
     color: black;
     font-size: 24px;
+    text-decoration: none;
 }
 
 footer .email-link:hover{
@@ -61,26 +51,26 @@ footer .email-link:hover{
 }
 
 footer .social-links a {
- margin: 0 20px;
- color: var(--branding-color);
  background-color: var(--secondary-color);
- padding: 10px 14px;
- font-size: 18px;
+ color: var(--branding-color);
  border-radius: 50%;
+ font-size: 18px;
+ margin: 0 20px;
+ padding: 10px 14px;
  transition: all 150ms ease-in-out;
 }
 
 footer .social-links a:hover {
-    color: var(--secondary-color);
     background-color: var(--branding-color);
+    color: var(--secondary-color); 
 }
 
 
 
 .hero {
     background-color: var(--branding-color);
-    text-align: center;
     padding: 160px 20px;
+    text-align: center;  
 }
 
 .hero h1 {
@@ -88,11 +78,11 @@ footer .social-links a:hover {
 }
 .hero .line-1{
     font-size: 60px;
-    text-align: center;
     border-right: solid 3px #2E3C7F;
-    white-space: nowrap;
-    overflow: hidden; 
     margin: 0 auto;
+    overflow: hidden; 
+    text-align: center;
+    white-space: nowrap;
     }
 
 
@@ -119,28 +109,24 @@ footer .social-links a:hover {
 }
 
 .hero p {
+    color: var(--secondary-color);
     font-family: var(--default-font);
     font-size: 36px;
     font-weight: bold;
-    margin: 0;
-    color: var(--secondary-color);
+    margin: 0;    
 }
 
-
-
 .hero .arrow-down {
-    font-size: 35px;
     color: var(--secondary-color);
+    font-size: 35px;  
 }
 
 .hero-content h2 {
     font-size: 45px;
 }
 
-
-
 .content-container{
-    padding: 160px 20px;
+    padding: 120px 20px;
 }
 
 .content-container h1 { 
@@ -204,8 +190,16 @@ margin-bottom: 15px;
     color: var(--secondary-color)!important;
 }
 
+.navbar-brand {
+    color: var(--secondary-color)!important;
+}
+
 .dictionary-img {
     margin: 45px 0;
+}
+
+.img-project {
+    width: 550px;
 }
 
 .project-buttons-dictionary{
@@ -223,7 +217,7 @@ margin-bottom: 15px;
     
 }
 
-.contact-title .line-1{
+.contact-title .line-2{
     font-size: 50px;
     text-align: center;
     border-right: solid 3px #2E3C7F;
@@ -233,13 +227,13 @@ margin-bottom: 15px;
     }
 
 
-.contact-title .anim-typewriter{
+.contact-title .typing{
     display: flex;
     align-items: center;
-    animation: typewriter 4s steps(20) 1s 1 normal both,
+    animation: typing 4s steps(20) 1s 1 normal both,
                blinkTextCursor 600ms steps(20) infinite;
   }
-  @keyframes typewriter{
+ @keyframes typing {
     from{width: 0;}
     to{width: 400px;}
   }
