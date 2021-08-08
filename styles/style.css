@@ -258,11 +258,16 @@ opacity: 50%;
         padding-top: 100px;
     }
 
+    .content-container h1 {
+        font-size: 50px;
+    }
+
     .project-buttons-dictionary{
         position: relative;
         top: 0;
     }
-.logo-name {
+
+    .logo-name {
     visibility: hidden;
 }
 
