@@ -255,8 +255,17 @@ opacity: 50%;
 
     .content-container {
         text-align: center;
-        padding: 40px;
+        padding-top: 100px;
     }
+
+    .project-buttons-dictionary{
+        position: relative;
+        top: 0;
+    }
+.logo-name {
+    visibility: hidden;
+}
+
 
     .hero .line-1{
         font-size: 43px;
