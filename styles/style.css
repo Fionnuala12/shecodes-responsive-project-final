@@ -23,8 +23,7 @@ p {
 
 footer {
     background-color: var(--branding-color);
-    background-size: 100%;
-    margin: 0 -400px;
+    width: auto;
     padding: 15px 0;
 }
 
@@ -64,8 +63,6 @@ footer .social-links a:hover {
     background-color: var(--branding-color);
     color: var(--secondary-color); 
 }
-
-
 
 .hero {
     background-color: var(--branding-color);
@@ -251,12 +248,7 @@ opacity: 50%;
 @media(max-width:960px) {
 
     
-    .hero h1 {
-        font-size: 60px;
-        line-height: 1.5;
-    }
-
-    .project-description{
+   .project-description{
         padding: 0; 
         text-align: center;
     }
@@ -266,4 +258,19 @@ opacity: 50%;
         padding: 40px;
     }
 
-}
+    .hero .line-1{
+        font-size: 43px;
+        }
+
+    .hero .anim-typewriter {
+        display: flex;
+        align-items: center;
+        animation: typewriter 4s steps(20) 1s 1 normal both,
+                   blinkTextCursor 600ms steps(20) infinite;
+    }
+
+    @keyframes typewriter{
+        from{width: 0;}
+        to{width: 100%;}
+      }
+    }
