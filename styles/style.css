@@ -287,4 +287,32 @@ opacity: 50%;
         from{width: 0;}
         to{width: 100%;}
       }
+
+
+    .contact-title .line-2{
+        font-size: 30px;
+        text-align: center;
+        border-right: solid 3px #2E3C7F;
+        white-space: nowrap;
+        overflow: hidden; 
+        margin: 0 auto;
+        margin-bottom: 30px;
+        }
+
+        .contact-title .typing{
+            display: flex;
+            align-items: center;
+            animation: typing 4s steps(20) 1s 1 normal both,
+                       blinkTextCursor 600ms steps(20) infinite;
+          }
+         @keyframes typing {
+            from{width: 0;}
+            to{width: 250px;}
+          }
+    .contact-title{
+        padding-top: 10px;;
     }
+    }
+     
+
+  
