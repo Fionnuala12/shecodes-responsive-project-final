@@ -192,6 +192,7 @@ margin-bottom: 15px;
 }
 
 .dictionary-img {
+    width:550px;
     margin: 45px 0;
 }
 
@@ -309,9 +310,10 @@ opacity: 50%;
             from{width: 0;}
             to{width: 250px;}
           }
-    .contact-title{
+    .contact-title {
         padding-top: 10px;;
     }
+
     }
      
 
